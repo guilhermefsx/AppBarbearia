@@ -1,8 +1,10 @@
-package devandroid.ferreira.applista;
+package devandroid.ferreira.applista.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import devandroid.ferreira.applista.R;
 
 public class MainActivity extends AppCompatActivity {
 
