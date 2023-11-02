@@ -14,7 +14,11 @@ class MainActivity : AppCompatActivity() {
 
         binding.Cortes.setOnClickListener {
             val navegarCortes = Intent (this,Cortes2Tela::class.java)
-            startActivity(navegarCortes)
+            startActivity(navegarCortes) }
+
+        binding.Barbas.setOnClickListener {
+            val navegarBarbas = Intent( this,Barba3Tela::class.java)
+            startActivity(navegarBarbas)
         }
     }
 }
