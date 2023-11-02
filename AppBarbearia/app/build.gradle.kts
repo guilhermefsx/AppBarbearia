@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "devandroid.ferreira.appbarbearia"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "devandroid.ferreira.appbarbearia"
