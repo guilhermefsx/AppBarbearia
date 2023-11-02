@@ -24,10 +24,7 @@ class MainActivity : AppCompatActivity() {
             val navegarStilo = Intent(this,Stilo4Tela::class.java)
             startActivity(navegarStilo) }
 
-        binding.Contatos.setOnClickListener {
-            val navegarContato = Intent(this,Contato5Tela::class.java)
-            startActivity(navegarContato)
-        }
+
 
 
     }
