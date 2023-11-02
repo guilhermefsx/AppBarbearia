@@ -13,6 +13,18 @@
         android:theme="@style/Theme.AppBarbearia"
         tools:targetApi="31">
         <activity
+            android:name=".Contato5Tela"
+            android:exported="false" />
+        <activity
+            android:name=".Stilo4Tela"
+            android:exported="false" />
+        <activity
+            android:name=".Barba3Tela"
+            android:exported="false" />
+        <activity
+            android:name=".Cortes2Tela"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
