@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AppBarbearia"
         tools:targetApi="31">
         <activity
+            android:name=".Contatotela5"
+            android:exported="false" />
+        <activity
             android:name=".Contato5Tela"
             android:exported="false" />
         <activity
