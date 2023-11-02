@@ -17,7 +17,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.344" />
+        app:layout_constraintVertical_bias="0.344"
+        android:textStyle="bold"/>
 
     <EditText
         android:id="@+id/editTextText"
@@ -30,7 +31,8 @@
         android:text="Bem-vindo! No que podemos te ajudar hoje?"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/editTextText2"
@@ -68,7 +70,8 @@
         android:text="Stilos de cabelos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText3" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextText3"
+       />
 
     <EditText
         android:id="@+id/editTextText5"
@@ -81,7 +84,8 @@
         android:inputType="text"
         android:text="Contatos e endereços"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText4" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextText4"
+        />
 
     <ImageView
         android:id="@+id/imageView"
