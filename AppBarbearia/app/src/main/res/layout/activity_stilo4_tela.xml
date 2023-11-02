@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fundoprodutos"
     tools:context=".Stilo4Tela">
 
     <EditText
@@ -13,6 +14,9 @@
         android:ems="10"
         android:inputType="text"
         android:text="Stilo"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="34dp" />
@@ -65,16 +69,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText14" />
 
-    <EditText
+    <Button
         android:id="@+id/voltartela4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="136dp"
-        android:ems="10"
-        android:inputType="text"
         android:text="VOLTAR"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText15" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

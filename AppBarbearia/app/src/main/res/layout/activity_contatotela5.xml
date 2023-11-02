@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Contatotela5">
+    tools:context=".Contatotela5"
+    android:background="@drawable/fundo1">
+
 
     <EditText
         android:id="@+id/editTextText2"
@@ -13,6 +15,9 @@
         android:ems="10"
         android:inputType="text"
         android:text="Name"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="71dp"
         tools:layout_editor_absoluteY="27dp" />
 
@@ -36,13 +41,12 @@
         tools:layout_editor_absoluteX="19dp"
         tools:layout_editor_absoluteY="290dp" />
 
-    <EditText
+    <Button
         android:id="@+id/voltartela5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
         android:text="VOLTAR"
         tools:layout_editor_absoluteX="107dp"
         tools:layout_editor_absoluteY="656dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
