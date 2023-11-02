@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="222dp"
+        android:layout_height="122dp"
+        android:text="Primeira Tela"
+        android:textSize="32sp"
+
+    <ImageView
+        android:id="@+id/irTela2"
+
+        android:layout_width="102dp"
+        android:layout_height="103dp"
+        android:src="@drawable/irtela2" />
+
+</LinearLayout>
