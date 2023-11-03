@@ -18,6 +18,8 @@
         android:inputType="text"
         android:text="Bem-vindo! No que podemos te ajudar hoje?"
         android:textStyle="bold"
+        android:enabled="false"
+
         android:textColor="@android:color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText6" />
@@ -86,6 +88,7 @@
         android:textColor="@android:color/white"
         android:textSize="25sp"
         android:textStyle="bold"
+        android:enabled="false"
         app:layout_constraintBottom_toTopOf="@+id/editTextText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.71"
